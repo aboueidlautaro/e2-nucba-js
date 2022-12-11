@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E2 Nucba - Javascript</title>
+    <link rel="stylesheet" href="./assets/css/format.css" />
+  </head>
+  <body>
+    <main>
+      <div class="pizzas__container">
+        <div class="form__container">
+          <h2 class="pizzas__container--title">Buscar pizzas</h2>
+          <form method="POST">
+            <label name="numberId" for="numberId">Ingresar número</label>
+            <input
+              type="number"
+              class="numberId"
+              name="numberId"
+              placeholder="Ingresar número"
+            />
+            <button id="btnSubmit" type="submit">Buscar</button>
+          </form>
+          <div class="result__container">
+            <div class="pizzaResult__container"></div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+
+  <script type="module" src="./assets/js/index.js"></script>
+</html>
